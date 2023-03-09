@@ -39,6 +39,8 @@ def get_response(msg):
                             asked_questions_pk.append(question)
                             ques_to_pk.remove(question)
                             return question
+                    if len(asked_questions_anuj) + len(asked_questions_pk) == 8:
+                        return "That's all folks!"
                     return "No further questions for PK"
                 elif intent["tag"] == "anuj":
                     while len(ques_to_anuj) > 0:
@@ -47,6 +49,8 @@ def get_response(msg):
                             asked_questions_anuj.append(question)
                             ques_to_anuj.remove(question)
                             return question
+                    if len(asked_questions_anuj) + len(asked_questions_pk) == 8:
+                        return "That's all folks!"
                     return "No further questions for Anuj"
                 else:
                     return random.choice(
