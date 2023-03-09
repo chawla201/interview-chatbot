@@ -18,6 +18,16 @@
       ]
     },
     {
+      "tag": "greetings_to_APK",
+      "patterns": [
+        "Say Hi to Anuj and PK",
+        "Say Hello to Anuj and PK"
+      ],
+      "responses": [
+        "Hello Anuj, Hello PK. I've got some questions for you!"
+      ]
+    },
+    {
       "tag": "goodbye",
       "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
@@ -28,8 +38,8 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": ["Thanks", "Thank you", "That will be all", "That'll be all", "Thank's a lot!"],
+      "responses": ["My pleasure! See y'all next time"]
     },
     {
       "tag": "funny",
@@ -46,25 +56,33 @@
     {
       "tag": "pk",
       "patterns": [
-        "Ask PK a question",
-        "PK's turn now"
+        "Let's start with PK",
+        "PK's turn now",
+        "Next one for PK",
+        "Moving on to PK now",
+        "another one for PK"
       ],
       "responses": [
-        "Q1 PK",
-        "Q2 PK",
-        "Q3 PK"
+        "What makes you excited about working for ANZ?",
+        "What is the one piece of advice that changed your life (in a fun way)?",
+        "If money weren't an issue, what projects/programmes would you invest in for your employees?",
+        "One fun piece of advice that you would like to give to all the people starting their corporate journey?"
       ]
     },
     {
       "tag": "anuj",
       "patterns": [
-        "Ask Anuj a question",
-        "Anuj's turn now"
+        "Let's start with Anuj",
+        "Anuj's turn now",
+        "Next one for Anuj",
+        "Next question please",
+        "another one for Anuj"
       ],
       "responses": [
-        "Q1 Anuj",
-        "Q2 Anuj",
-        "Q3 Anuj"
+        "Who would you like to exchange roles with?",
+        "Over the course of your life, how many cities have you lived in and which one was your favourite and why?",
+        "If money weren't an issue, which profession/business would you like to pursue?",
+        "If you were made god for 24 hours, what are the top 3 things that you would do and why?"
       ]
     }
   ]
